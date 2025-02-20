@@ -2,9 +2,22 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Ismênia Cristina",
-    "email": "ismscno@gmail.com"
+    "name": "Usuário Indicado 3",
+    "email": "indicado3@gmail.com",
+    "referrer": "304560b9-2ef7-42c4-b119-a1fc705450b5"
 }
 
 ###
-GET http://localhost:3333/invites/ismenia123
+GET http://localhost:3333/invites/6c3d9961-7769-4b84-bfd6-d01ff165f02b
+
+###
+GET http://localhost:3333/subscribers/6c3d9961-7769-4b84-bfd6-d01ff165f02b/ranking/clicks
+
+###
+GET http://localhost:3333/subscribers/6c3d9961-7769-4b84-bfd6-d01ff165f02b/ranking/count
+
+###
+GET http://localhost:3333/subscribers/6c3d9961-7769-4b84-bfd6-d01ff165f02b/ranking/position
+
+###
+GET http://localhost:3333/ranking
